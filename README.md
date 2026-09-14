@@ -1,18 +1,16 @@
 # Jacccobi-xd
 Codigo Jaccobi pibe 
 
-a = float(input("Ingrese Ax: "))
-b = float(input("Ingrese By: "))
-r1 = float(input("Ingrese el resultado de la Ecuación 1: "))
-c = float(input("Ingrese A_1x: "))
-d = float(input("Ingrese B_1y: "))
-r2 = float(input("Ingrese el resultado de la Ecuación 2: "))
 
 
-
-
+    a = float(input("Ingrese Ax: "))
+    b = float(input("Ingrese By: "))
+    r1 = float(input("Ingrese el resultado de la Ecuación 1: "))
+    c = float(input("Ingrese A_1x: "))
+    d = float(input("Ingrese B_1y: "))
+    r2 = float(input("Ingrese el resultado de la Ecuación 2: "))
     if abs(a) > abs(b) and abs(d) > abs(c):
-     print("\n La matriz es diagonalmente dominante. Jacobi")
+    print("\n La matriz es diagonalmente dominante. Jacobi")
     x_viejo = 0.0
     y_viejo = 0.0
 
